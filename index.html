@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicaragua Travel</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body style="background: blanchedalmond;">
+    <div class="media-icons">
+        <a style="color: black;" href="index.html"><i class="fa fa-chevron-left"></i></a>
+      
+      </div>
+    <div class="formulario">
+    <form action="formulario.php" method="post">
+        <table>
+            <tr>
+                <td>NOMBRE</td>
+                <td><input type="text" placeholder="Ingresa tu nombre completo" name="nombre" required></td>
+            </tr>
+            <tr>
+                <td><br> CONTRASEÑA</td>
+                <td><br><input type="password" placeholder="Ingresa una contraseña" name="password" required></td>
+            </tr>
+            <tr>
+                <td><br> Genero</td>
+                <td><br><input type="radio" value="F" name="genero" required> Femenino
+                    <input type="radio" value="M" name="genero" required> Maculino
+                </td>
+            </tr>
+            <tr>
+                <td><br> Correo</td>
+                <td><br><input type="mail" placeholder="Ingresa tu correo" name="email" required></td>
+            </tr>
+            <tr>
+                <td><br> Destino</td>
+                <td> <br>
+                    <select name="materia" required>
+                        <option selected hidden value="">Destinos Turisticos</option>
+                        <option value="ometepe">Isla de ometepe</option>
+                        <option value="corn">Corn Island</option>
+                        <option value="leon">Leon</option>
+                        <option value="cerro">Cerro negro</option>
+                        <option value="laguna">Laguna de apoyo</option>
+                    </select>
+                    <br><input type="phone" name="telefono" placeholder="Ingresa tu numero" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                    <input type="submit" value="Comprar" name="enviar">
+                </td>
+            </tr>
+
+
+        </table>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #fff;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.media-icons{
+    
+    color: black;
+    padding: 15px;
+    background-color: beige;
+    border-style: groove;
+
+}
+
+.formulario{
+    background-color: beige;
+    border-style: groove;
+    border-color: black;
+    width: 380px;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="submit"]{
+    padding: 6px 15px;
+    text-align: center;
+    background: yellow;
+    width: 295%;
+    border-color: gold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: gold;
+    transition: .6s;
+}
+
